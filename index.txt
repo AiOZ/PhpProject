@@ -1,0 +1,8 @@
+<?php 
+
+bla bla 
+
+// taper du code etc...
+
+
+?>
