@@ -14,11 +14,11 @@ $language = new Translator();
 		<div id="content"></div>
 		<div id="menu">
 			<ul>
-				<li>Home</li>
-				<li>Dictionnary</li>
-				<li>Translator</li>
-				<li>Contact</li>
-				<li>Application</li>	
+				<li><p>Home</p></li>
+				<li><p>Dictionnary</p></li>
+				<li><p>Translator</p></li>
+				<li><p>Application</p></li>
+				<li><p>Contact</p></li>
 			</ul>
 		</div>
 		<div id="footer"></div>		

@@ -1,20 +1,25 @@
 body{
 	background: linear-gradient(white, #ADD8E6);
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*Menu*/
+
 #menu{
 	height: 60px;
-	width: 800px;
+	width: 850px;
 	border: 1px solid transparent;
 }
 
 #menu ul li{
 	font-family: menu_font;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	height: 60px;
-	width: 150px;
+	width: 155px;
 	border: 1px solid transparent;
 	position: relative;
 	float: left;
@@ -22,7 +27,7 @@ body{
 	text-align: center;
 	margin: -17px 0 0 0;
 	right: 40px;
-	background-color: LightSkyBlue;
+	background-color: #ADD8E6;
 }
 
 #menu ul li:hover{
@@ -31,7 +36,6 @@ body{
 
 @font-face{
 	font-family: menu_font;
-	src: url(font/title_font.otf);
-
+	src: url(font/menu_font.ttf);
 }
 /*Menu*/
