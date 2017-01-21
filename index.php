@@ -1,9 +1,17 @@
+<?php
+include('include/class.translator.php');
+$language = new Translator();
+
+
+?>
 <html>
     <head>
-        <title>AiOZ Myth</title>
+        <title>AfrasiabMarion</title>
     </head>
     <body>
-        <center><h3>Php : Translator!</h3></center>
-
+        <center><h3>Translator!</h3></center>
+	<?php
+	$language->getIntro();
+	?>
     </body>
 </html>
