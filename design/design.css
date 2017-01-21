@@ -1,0 +1,37 @@
+body{
+	background: linear-gradient(white, #ADD8E6);
+}
+
+/*Menu*/
+#menu{
+	height: 60px;
+	width: 800px;
+	border: 1px solid transparent;
+}
+
+#menu ul li{
+	font-family: menu_font;
+	font-size: 25px;
+	font-weight: bold;
+	height: 60px;
+	width: 150px;
+	border: 1px solid transparent;
+	position: relative;
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin: -17px 0 0 0;
+	right: 40px;
+	background-color: LightSkyBlue;
+}
+
+#menu ul li:hover{
+	background-color: DeepSkyBLue;
+}
+
+@font-face{
+	font-family: menu_font;
+	src: url(font/title_font.otf);
+
+}
+/*Menu*/
